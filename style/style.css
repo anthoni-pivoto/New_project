@@ -1,0 +1,50 @@
+/*
+cor creme: fffdd0
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0; /* nestes 3 apenas zerei as formataçoes da pagina*/
+    box-sizing: border-box;
+    color: black;
+}
+
+.full{
+    display: flex;/*criei uma caixa a qual seria o cabeçalho com tamanho maximo parar ter mais liberdade de criação*/
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    height: 100px;
+    background-color: #8f4522;
+}
+
+#logo{
+    margin-top: 10%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.center{
+    height: 900px;
+    width: 100%;
+    background-color: #fffdd0;
+}
+
+.menu{
+    padding-top: 3%;/*ajustando posição e tamanho do menu de navegacao*/
+    width: 94%;
+    height: 100%;
+    text-align: right;
+}
+
+.menu a{
+    font-size: larger;
+    color: #fffdd0;
+    text-decoration: none;
+    padding: 1.5%;
+}
