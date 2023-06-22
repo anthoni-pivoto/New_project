@@ -7,20 +7,47 @@ cor creme: fffdd0
 
 * {
     margin: 0;
-    padding: 0; /* nestes 3 apenas zerei as formataçoes da pagina*/
+    padding: 0; 
     box-sizing: border-box;
     color: black;
 }
 
+.center{
+    background-color: black;
+}
+
+#face{
+    padding: 0% 3% 0% 1.5%;
+    margin: 0;
+    
+}
 .full{
-    display: flex;/*criei uma caixa a qual seria o cabeçalho com tamanho maximo parar ter mais liberdade de criação*/
-    flex-wrap: wrap;
+    display: flex;
     max-width: 100%;
     margin: 0 auto;
     padding: 0 2%;
     height: 100px;
     background-color: #8f4522;
+
+    align-items: center;
+    justify-content: center;
+}  
+
+.galery{
+    flex-wrap: wrap;
+    height: 100% ;
+    max-width: 80%;
+    background-color: #fffdd0;
+    margin: 0 auto;
+    padding: 2%
 }
+
+#insta{
+    padding: 0% 3% 0% 3%;
+    margin: 0;
+    
+}
+
 
 #logo{
     margin-top: 10%;
@@ -29,22 +56,45 @@ cor creme: fffdd0
     border-radius: 50%;
 }
 
-.center{
-    height: 900px;
-    width: 100%;
-    background-color: #fffdd0;
-}
 
 .menu{
-    padding-top: 3%;/*ajustando posição e tamanho do menu de navegacao*/
-    width: 94%;
-    height: 100%;
-    text-align: right;
+
+    width: 73%;
+    height: 100px;
+    text-align: right;  
+    padding-top: 40px; 
 }
 
 .menu a{
+
     font-size: larger;
     color: #fffdd0;
     text-decoration: none;
     padding: 1.5%;
+}
+
+.produto {
+    background-color: white;
+    display: inline-block;
+    width: 23.3%;
+    text-align: center;
+    margin: 0.7%;
+    padding: 0.5%;
+    border: 1px solid #ccc;
+}
+
+.produto img {
+    padding: 5% 5% 2.5% 5%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.produto .preco {
+    font-weight: bold;
+}
+
+.produto .descricao {
+    color: #888;
+    padding: 2.5%;
 }
